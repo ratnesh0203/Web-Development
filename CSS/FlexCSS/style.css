@@ -1,0 +1,32 @@
+.container{
+    height: 500px;
+    border:1px solid green ;
+    display: flex;
+    /* flex-direction: row; */
+     flex-wrap: wrap; /*element squeeze nhi hoga */
+     /* Justify content */
+     
+     /* justify-content: flex-start;
+     justify-content: flex-end;
+     
+     justify-content: space-around;
+     justify-content: space-evenly;
+     justify-content: space-between; */
+     justify-content: center;
+
+     align-items: center;
+     /*   */
+     /* align-items: flex-start ;
+     align-items: flex-start;
+    
+     align-items: baseline;  */
+
+     align-content: flex-start;
+     align-content: space-between;
+     align-content: space-around;
+}
+.box{
+    border: 1px solid green;
+    background-color: aqua;
+    width: 100px;
+}
